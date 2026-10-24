@@ -563,7 +563,7 @@ button.chip:hover {
   justify-content: space-between;
   gap: 12px;
   font-size: 14px;
-  color: var(--ink-3);
+  color: var(--paper);
   pointer-events: none;
 }
 .trust {
