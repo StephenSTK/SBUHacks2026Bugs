@@ -174,7 +174,7 @@ function Diorama({ still }: { still: boolean }) {
         tick: (t) => {
           const a = -t * 0.12;
           ship.g.position.set(Math.cos(a) * 8.0, -0.32 + Math.sin(t * 1.3) * 0.05, Math.sin(a) * 8.0);
-          ship.g.rotation.y = -a + Math.PI;
+          ship.g.rotation.y = -a + Math.PI + Math.PI / 2;
           ship.g.rotation.x = Math.sin(t * 0.9) * 0.04;
         },
       });
